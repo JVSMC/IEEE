@@ -1,0 +1,32 @@
+:root{
+    --color2: #00AEEF;
+    --color11 : #717073;
+    --white-primary: #FFF;
+}
+
+a {
+    color: var(--white-primary);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+ul{
+    display: inline-flex;
+    height: 2.93rem;
+    padding: 0.625rem 1.875rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-right: 1px solid var(--white-primary, #FFF);
+}
+
+nav{
+    display: inline-flex;
+    width: 100%;
+    height: 4.75rem;
+    padding: 0.87rem 0;
+    flex-shrink: 0;
+    background-color: var(--color11,#717073);
+}

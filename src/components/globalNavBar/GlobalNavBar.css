@@ -36,17 +36,18 @@
     }
     .navGOp{
         display: none;
+        transition: all 0.3s ease;
     }
-    .seeGOp{
+    .navGOp.active{
         display: block;
         position: static;
         width: 100%;
         margin: 0.5rem 0;
     }
-    .seeGOp ul:hover{
+    .navGOp.active ul:hover{
         background-color: var(--white-primary);
     }
-    .seeGOp ul:hover a{
+    .navGOp.active ul:hover a{
         color: var(--blue-tertiary);
         font-weight: 600;
     }
@@ -59,8 +60,6 @@
         height: 2rem;
     }
     .logoContainer .toggle{
-        color: var(--white-primary);
         font-size: 1.5rem;
-        margin: 0 .3rem;
     }
 }

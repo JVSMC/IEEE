@@ -1,33 +1,66 @@
-:root{
+:root {
     --white-primary: #fff;
     --blue-primary: #0073ae;
 }
-nav{
+
+nav {
     position: relative;
     display: flex;
     align-items: center;
     padding: 1rem 0;
     border-bottom: 5px solid var(--white-primary, #FFF);
     background: var(--blue-primary, #0073AE);
-    color: var(--white-primary) ;
 }
-nav h1{
-    margin-left: .9rem;
+
+nav .logoLink {
     width: 50%;
+    padding: 0;
+    margin-left: .9rem;
 }
-nav h1 span{
+
+nav .logoLink li h1 {
+    color: var(--white-primary, #fff);
+}
+
+nav h1 span {
     padding: 0 .9rem;
 }
-nav .navTitle{
+
+nav .navTitle {
     border-right: 2px solid var(--white-primary, #FFF);
 }
-nav .menu{
+
+nav .menu {
     display: inline-flex;
 }
-nav .menu ol{
+
+nav .menu li {
     margin: 0 1rem;
+    color: var(--white-primary);
 }
-nav img{
+
+.menu li .menuUrl {
+    color: var(--white-primary, #fff);
+}
+
+.menuUrl.active {
+    border-bottom: 2px solid var(--white-primary);
+    font-weight: 600;
+    /* transition: all .6s ease; */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--blue-primary);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropDown:hover .dropdown-content {
+    display: block;
+}
+nav img {
     position: absolute;
     right: 1.8rem;
     height: 2rem;

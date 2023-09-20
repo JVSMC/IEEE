@@ -2,6 +2,7 @@
 
 :root{
     --background: #FFFFFF;
+    --white-primary: #fff;
 }
 *{
     font-family: 'Open Sans', sans-serif;

@@ -24,7 +24,7 @@ function GlobalNavBar() {
             </div>
             <div className="logoContainer" onClick={handleGNav}>
                 <img src={logo} alt="IEEE" />
-                <FontAwesomeIcon className="toggle" icon={faChevronDown} />
+                <FontAwesomeIcon className="icon-menu" icon={faChevronDown} />
             </div>
         </div>
     );

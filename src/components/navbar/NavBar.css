@@ -1,6 +1,7 @@
 :root {
     --white-primary: #fff;
     --blue-primary: #0073ae;
+    --Color7: #74BB23;
 }
 
 nav {
@@ -54,14 +55,78 @@ nav .menu li {
     position: absolute;
     background-color: var(--blue-primary);
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 6px;
     z-index: 1;
 }
 
 .dropDown:hover .dropdown-content {
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
+
+.dropdown-content .menuUrl{
+    padding: .5rem 1rem;
+}
+
+.dropdown-content .menuUrl:hover{
+    background-color: var(--white-primary);
+    color: var(--blue-primary);
+    font-weight: 600;
+}
+
+nav .menuBars{
+    display: none;
+}
+
 nav img {
     position: absolute;
     right: 1.8rem;
     height: 2rem;
+}
+
+@media (max-width: 960px){
+    nav .menu{
+        position: fixed;
+        flex-direction: column;
+        top: 7rem;
+        right: -300px;
+        background-color: var(--blue-primary);
+        bottom: 0;
+        width: 30%;
+        transition: all .5s ease-in-out;
+    }
+
+    nav .menu li {
+        margin: 1rem;
+    }
+
+    nav .menu.active{
+        right: 0;
+    }
+
+    .dropdown-content{
+        position: relative;
+        background-color: var(--white-primary);
+    }
+
+    .dropdown-content .menuUrl {
+        color: var(--blue-primary) !important;
+    }
+
+    .dropdown-content .menuUrl:hover{
+        background-color: var(--blue-primary);
+        color: var(--white-primary) !important;
+        font-weight: 600;
+    }
+
+    nav .menuBars{
+        position: absolute;
+        right: 1.8rem;
+        display: block;
+        font-size: 1.5rem;
+    }
+    
+    nav img{
+        display: none;
+    }
 }

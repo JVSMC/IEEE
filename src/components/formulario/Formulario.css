@@ -1,0 +1,77 @@
+:root {
+    --white-primary: #FFF;
+    --blue-secondary: #00AEEF;
+}
+
+.formContainer {
+    display: flex;
+    align-items: center;
+    background-image: url(../formulario/bk-form.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 5px solid var(--white-primary);
+}
+
+.textComp {
+    color: var(--white-primary);
+    background-image: url(../formulario/bk2-form.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 51.6875rem;
+    padding-left: 3.81rem;
+}
+
+.formContainer .textComp h2 {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 39.5rem;
+    margin-top: 4.45rem;
+}
+.formContainer .textComp p{
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 33rem;
+    margin-top: 2.56rem;
+    margin-bottom: 13.19rem;
+}
+
+.formContainer .form {
+    display: flex;
+    flex-direction: column;
+    width: 32.25rem;
+    margin: 0 5.94rem 0 auto;
+}
+.form .inputUser{
+    display: flex;
+}
+.form .inputUser input{
+    width: 50%;
+}
+.form input,
+.form textarea,
+.form button{
+    display: inline-flex;
+    padding: 0.625rem 1.6rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0.625rem;
+    border-radius: var(--borderRound, 0.9375rem);
+    border: 3px solid var(--blue-secondary, #00AEEF);
+    color: var(--white-primary);
+    background: none;
+}
+.form input::placeholder,
+.form textarea::placeholder{
+    color: var(--white-primary);
+}
+.form button{
+    cursor: pointer;
+}

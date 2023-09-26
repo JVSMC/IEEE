@@ -6,7 +6,7 @@
 }
 
 .navG{
-    background-color: var(--color11);
+    /* background-color: var(--color11); */
     display: flex;
     padding: .50rem 0;
 }

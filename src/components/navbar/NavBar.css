@@ -5,7 +5,8 @@
 }
 
 nav {
-    position: relative;
+    position: sticky;
+    top: 0;
     display: flex;
     align-items: center;
     padding: 1rem 0;
@@ -88,7 +89,7 @@ nav img {
     nav .menu{
         position: fixed;
         flex-direction: column;
-        top: 7rem;
+        top: 6rem;
         right: -300px;
         background-color: var(--blue-primary);
         bottom: 0;

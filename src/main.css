@@ -3,6 +3,10 @@
 :root{
     --background: #FFFFFF;
     --white-primary: #fff;
+    --Color2: #00AEEF;
+    --Color3: #00567D;
+    --Color8: #638B1C;
+    --Color7: #74BB23;
 }
 *{
     font-family: 'Open Sans', sans-serif;
@@ -15,16 +19,16 @@
 
 body::-webkit-scrollbar {
     width: 7px;
-    background: red;
+    background: var(--Color2);
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: blue;
+    background-color: var(--Color3);
     border-radius: 20px;
 }
 
 body::-webkit-scrollbar-thumb:hover {
-    background-color: yellow;
+    background-color: var(--Color7);
 }
 
 html {

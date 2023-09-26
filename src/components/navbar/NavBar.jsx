@@ -22,7 +22,7 @@ function NavBar() {
                     <NavLink to='/' className={({isActive})=>{isActive ? 'active' : ''}}>
                         <h1>
                             <span className='navTitle'>IEEE</span>
-                            <span>Sección Guadalajara</span>
+                            <span>Guadalajara</span>
                         </h1>
                     </NavLink>
                 </li>
@@ -54,9 +54,7 @@ function NavBar() {
                     </div>
                 </li>
                 <li>
-                    <NavLink to='/contacto' className='menuUrl'>
-                        Contacto
-                    </NavLink>
+                    <a href="#ContactUs" className='menuUrl'>Contacto</a>
                 </li>
             </ul>
             <img src={logo} alt="IEEE" />

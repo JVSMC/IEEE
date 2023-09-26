@@ -5,7 +5,22 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
 
-function GlobalNavBar() {
+function GlobalNavBar({position}) {
+
+    const navStyle = {
+        // Estilos específicos para la posición 'top'
+        ...(position === 'top' && {
+          backgroundColor:'#717073',
+          // Otros estilos específicos para 'top' aquí...
+        }),
+    
+        // Estilos específicos para la posición 'bottom'
+        ...(position === 'bottom' && {
+          backgroundColor: '#0073AE',
+          // Otros estilos específicos para 'bottom' aquí...
+        }),
+      };
+
     const [isActive, setIsActive] = useState(false);
     
     const handleGNav = ()=>{
@@ -14,7 +29,7 @@ function GlobalNavBar() {
     }
 
     return (
-        <div className="navG">
+        <div className="navG" style ={navStyle}>
             <div className={`navGOp ${isActive ? 'active' : ''}`}>
                 <ul><a href="https://www.ieee.org/" target='_blank'>IEEE.org</a></ul>
                 <ul><a href="https://ieeexplore.ieee.org/Xplore/home.jsp" target='_blank'>IEEE Xplore Digital Library</a></ul>

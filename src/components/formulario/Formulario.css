@@ -19,11 +19,10 @@
     background-repeat: no-repeat;
     width: 51.6875rem;
     padding-left: 3.81rem;
+    color: var(--white-primary);
 }
 
 .formContainer .textComp h2 {
-    color: #FFF;
-    font-family: Open Sans;
     font-size: 2rem;
     font-style: normal;
     font-weight: 400;
@@ -32,8 +31,6 @@
     margin-top: 4.45rem;
 }
 .formContainer .textComp p{
-    color: #FFF;
-    font-family: Open Sans;
     font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
@@ -47,7 +44,7 @@
     display: flex;
     flex-direction: column;
     width: 32.25rem;
-    margin: 0 5.94rem 0 auto;
+    margin: 0 auto;
 }
 .form .inputUser{
     display: flex;
@@ -74,4 +71,32 @@
 }
 .form button{
     cursor: pointer;
+}
+@media (max-width: 960px){
+    .formContainer{
+        flex-direction: column;
+    }
+    .textComp{
+        width: 100%;
+        height: 18.0625rem;
+    }
+    .formContainer .textComp h2 {
+        margin-top: 3.10rem;
+        width: 20.5rem;
+        font-size: 1.5rem;
+    }
+    .formContainer .textComp p{
+        width: 20.5rem;
+        font-size: 1rem;
+    }
+    .formContainer .form {
+        width: 80%;
+        margin: 2.2rem 0;
+    }
+    .form .inputUser{
+        flex-direction: column;
+    }
+    .form .inputUser input{
+        width: auto;
+    }
 }

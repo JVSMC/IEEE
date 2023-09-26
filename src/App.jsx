@@ -7,11 +7,12 @@ import CapTecnico from "./components/capTec/CapTec";
 import RamEstudiantil from "./components/ramEst/RamEst";
 import GrupAfinidad from "./components/grupoAfinidad/GrupAfinidad";
 import Formulario from "./components/formulario/Formulario";
+import Footer from "./components/footer/Footer";
 
 function App() {
     return ( 
         <>
-            <GlobalNavBar/>
+            <GlobalNavBar position = 'top'/>
             <BrowserRouter>
                 <NavBar/>
                 <Routes>
@@ -23,7 +24,8 @@ function App() {
                 </Routes>
             </BrowserRouter>
             <Formulario/>
-            <GlobalNavBar/>
+            <GlobalNavBar position = 'bottom'/>
+            <Footer/>
         </>
      );
 }

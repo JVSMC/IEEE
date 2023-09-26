@@ -1,0 +1,45 @@
+:root {
+    --white-primary: #fff;
+    --blue-secondary: #00AEEF;
+    --blue-tertiary: #182A54;
+}
+.layoutFooter {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(15rem,1fr));
+    gap: 1rem;
+    justify-items: start;
+    align-items: start;
+    background-color: var(--blue-secondary);
+    padding: 0 1.5rem;
+}
+.logoFooter{
+    width: 13.5rem;
+}
+.layoutFooter div {
+    padding: 2rem 0;
+}
+.layoutFooter div h4{
+    color: var(--white-primary);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.layoutFooter div ol li .linkFooter{
+    font-size: 1rem;
+    color: var(--blue-tertiary);
+    line-height: 200%;
+}
+.socialContainer{
+    display: flex;
+}
+ol li a .socialIcon{
+    font-size: 2rem;
+    color: var(--white-primary);
+    margin: .5rem;
+}
+.copyRight, 
+.copyRight a{
+    font-size: 1rem;
+    color: var(--blue-tertiary);
+    text-align: center;
+}

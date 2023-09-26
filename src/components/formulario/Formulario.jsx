@@ -2,7 +2,7 @@ import '../formulario/Formulario.css';
 
 function Formulario() {
     return (
-        <div className='formContainer'>
+        <div className='formContainer' id='ContactUs'>
             <div className='textComp'>
                 <h2>¿Interesado en unirte a IEEE Sección Guadalajara?</h2>
                 <p>¡Completa nuestro formulario y únete a nuestra comunidad de innovadores y apasionados por la tecnología!</p>

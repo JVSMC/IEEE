@@ -1,15 +1,15 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import GlobalNavBar from "./components/globalNavBar/GlobalNavBar";
 import NavBar from "./components/navbar/NavBar";
-import Index from "./components/index";
-import NotFound from "./components/notFound/NotFound";
-import CapTecnico from "./components/capTec/CapTec";
-import RamEstudiantil from "./components/ramEst/RamEst";
-import GrupAfinidad from "./components/grupoAfinidad/GrupAfinidad";
-import Formulario from "./components/formulario/Formulario";
-import Footer from "./components/footer/Footer";
+import Index from "./pages/index/Index";
+import NotFound from "./pages/notFound/NotFound";
+import CapTecnico from "./pages/capTec/CapTec";
+import RamEstudiantil from "./pages/ramEst/RamEst";
+import GrupAfinidad from "./pages/grupoAfinidad/GrupAfinidad";
+
 
 function App() {
+
     return ( 
         <>
             <GlobalNavBar position = 'top'/>
@@ -23,9 +23,6 @@ function App() {
                     <Route path="*" element={<NotFound/>}/>
                 </Routes>
             </BrowserRouter>
-            <Formulario/>
-            <GlobalNavBar position = 'bottom'/>
-            <Footer/>
         </>
      );
 }

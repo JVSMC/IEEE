@@ -1,0 +1,89 @@
+:root {
+    --blue-tertiary: #182A54;
+    --white-primary: #fff;
+
+    /*Degradado*/
+    --Color2: #00AEEF;
+    --Color3: #00567D;
+    --Color7: #74BB23;
+    --Color8: #638B1C;
+}
+
+.heroContainer {
+    position: relative;
+    display: flex;
+    height: 34.0625rem;
+    /* background-color: red; */
+}
+
+.heroContainer .heroLeft{
+    position: relative;
+    display: flex;
+    width: 60%;
+}
+
+.heroContainer .heroTextContainer {
+    /* position: relative; */
+    height: 100%;
+    width: 100%;
+    background-color: var(--blue-tertiary);
+    -webkit-clip-path: polygon(0 0, 100% 0, 78% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 78% 100%, 0 100%);
+    padding: 7.6rem 5.5rem;
+    color: var(--white-primary);
+}
+
+.heroContainer .heroTextContainer h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.2rem;
+    width: 34.125rem;
+}
+
+.heroContainer .heroTextContainer p {
+    margin-bottom: 3.19rem;
+    width: 32.9375rem;
+}
+
+.heroContainer .heroTextContainer button {
+    padding: 0.625rem 3.125rem;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-primary);
+    background-color: var(--Color2);
+    border-radius: 1rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    border: none;
+}
+
+.heroDivisor {
+    position: absolute;
+    right: 0;
+    z-index: 2;
+    width: 25rem;
+    height: 100%;
+    background-image: linear-gradient(180deg,
+            var(--Color2) 0%,
+            var(--Color2) 25%,
+            var(--Color3) 25%,
+            var(--Color3) 50%,
+            var(--Color7) 50%,
+            var(--Color7) 75%,
+            var(--Color8) 75%,
+            var(--Color8) 100%);
+    background-repeat: no-repeat;
+    display: inline-block;
+    -webkit-clip-path: polygon(96% 0,100% 0,50% 100%,46% 100%);
+    clip-path: polygon(96% 0,100% 0,50% 100%,46% 100%);
+    
+}
+
+.heroImageContainer {
+    position: absolute;
+    right: 0;
+    z-index: -2;
+}
+.heroImageContainer img{
+    /* width: 58.0625rem; */
+    height: 34.0625rem;
+}

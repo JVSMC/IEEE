@@ -59,7 +59,7 @@ function Footer() {
                 </div>
             </footer>
             <p className='copyRight'>
-                &copy; 2023 <a href="https://github.com/JVSMC" target='_blank'>José Javier Martinez Cano</a>.
+                &copy; 2023 <a href="https://github.com/JVSMC" target='_blank'>José Javier Martínez Cano</a>.
             </p>
         </>
     );

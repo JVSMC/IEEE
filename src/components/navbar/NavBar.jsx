@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faChevronDown } from '@fortawesome/free-solid-svg-icons';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 import '../navbar/NavBar.css';
 import logo from '../globalNavBar/IEEE_MB_white_RGB_72ppi.webp';
@@ -54,6 +54,7 @@ function NavBar() {
                     </div>
                 </li>
                 <li>
+                    {/* <Link to = '#ContactUs' className='menuUrl'>Contacto</Link> */}
                     <a href="#ContactUs" className='menuUrl'>Contacto</a>
                 </li>
             </ul>

@@ -3,33 +3,29 @@
     --white-primary: #fff;
 
     /*Degradado*/
-    --Color2: #00AEEF;
+    /* --Color2: #00AEEF;
     --Color3: #00567D;
     --Color7: #74BB23;
-    --Color8: #638B1C;
+    --Color8: #638B1C; */
 }
 
 .heroContainer {
-    position: relative;
     display: flex;
     height: 34.0625rem;
-    /* background-color: red; */
 }
 
 .heroContainer .heroLeft{
     position: relative;
+    z-index: 0;
     display: flex;
-    width: 60%;
+    width: 58%;
+    background-color: var(--blue-tertiary);
+    -webkit-clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
 }
 
-.heroContainer .heroTextContainer {
-    /* position: relative; */
-    height: 100%;
-    width: 100%;
-    background-color: var(--blue-tertiary);
-    -webkit-clip-path: polygon(0 0, 100% 0, 78% 100%, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 78% 100%, 0 100%);
-    padding: 7.6rem 5.5rem;
+.heroContainer .heroLeft .heroTextContainer{
+    margin: 7.6rem 5.5rem;
     color: var(--white-primary);
 }
 
@@ -54,13 +50,14 @@
     font-size: 1.25rem;
     font-weight: 700;
     border: none;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
 }
 
-.heroDivisor {
+.heroDivisor{
     position: absolute;
     right: 0;
-    z-index: 2;
-    width: 25rem;
+    width: 14rem;
     height: 100%;
     background-image: linear-gradient(180deg,
             var(--Color2) 0%,
@@ -72,18 +69,118 @@
             var(--Color8) 75%,
             var(--Color8) 100%);
     background-repeat: no-repeat;
-    display: inline-block;
-    -webkit-clip-path: polygon(96% 0,100% 0,50% 100%,46% 100%);
-    clip-path: polygon(96% 0,100% 0,50% 100%,46% 100%);
-    
+    /* display: inline-block; */
+    -webkit-clip-path: polygon(86% 0,100% 0,50% 100%,35% 100%);
+    clip-path: polygon(86% 0,100% 0,50% 100%,35% 100%);
 }
 
 .heroImageContainer {
     position: absolute;
     right: 0;
-    z-index: -2;
+    z-index: -1;
+    /* width: 50%;
+    height: inherit;
+    background: linear-gradient(0deg, rgba(116, 187, 35, 0.20) 0%, rgba(116, 187, 35, 0.20) 100%), url(./matthew-osborn-wMRIcT86SWU-unsplash.webp);
+    background-size: cover;
+    background-position: center; */
 }
 .heroImageContainer img{
-    /* width: 58.0625rem; */
-    height: 34.0625rem;
+    /* display: none; */
+    width: 58.0625rem;
+    height: 34.062rem;
 }
+
+@media (max-width:1440px){
+    .heroContainer {
+        height: auto;
+    }
+    .heroContainer .heroLeft .heroTextContainer{
+        margin: 5.6rem 3.5rem;
+    }
+    .heroDivisor{
+        -webkit-clip-path: polygon(86% 0,100% 0,62% 100%,48% 100%);
+        clip-path: polygon(86% 0,100% 0,62% 100%,48% 100%);
+    }
+    .heroImageContainer img{
+        width: 44.7rem;
+        height: auto;
+    }
+}
+@media ( max-width: 1280px){
+    .heroContainer .heroLeft .heroTextContainer{
+        margin: 4.61rem 2.5rem;
+    }
+    .heroDivisor{
+        -webkit-clip-path: polygon(86% 0,100% 0,66% 100%,51% 100%);
+        clip-path: polygon(86% 0,100% 0,66% 100%,51% 100%);
+    }
+    .heroImageContainer img{
+        width: 41.262rem;
+    }
+}
+@media (max-width: 960px){
+    .heroContainer .heroLeft .heroTextContainer{
+        margin: 1.88rem 1.5rem;
+    }    
+    .heroContainer .heroTextContainer h1 {
+        width: 20.75rem;
+        height: 8.1875rem;
+        font-size: 2rem;
+        margin-bottom: 0rem;
+    }
+    .heroContainer .heroTextContainer p {
+        width: 20.3125rem;
+        height: 6.1875rem;
+        margin: 1.38rem 0;
+    }
+    .heroContainer .heroTextContainer button{
+        padding: 0.625rem 3.125rem;
+        font-size: 1rem;
+    }
+    .heroDivisor{
+        width: 8rem;
+    }
+    .heroImageContainer img{
+        width: 37.02325rem;
+    }
+}
+
+@media (max-width: 480px){
+    .heroContainer {
+        flex-direction: column-reverse;
+    }
+    .heroContainer .heroLeft{
+        /* display: none; */
+        width: 100%;
+        flex-direction: column;
+        position: static;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    .heroDivisor{
+        /* display: none; */
+        width: 100%;
+        height: 1rem;
+        position: static;
+        background-image: linear-gradient(to right,
+            var(--Color2) 0%,
+            var(--Color2) 25%,
+            var(--Color3) 25%,
+            var(--Color3) 50%,
+            var(--Color7) 50%,
+            var(--Color7) 75%,
+            var(--Color8) 75%,
+            var(--Color8) 100%);
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    .heroContainer .heroTextContainer h1,
+    .heroContainer .heroTextContainer p,
+    .heroContainer .heroTextContainer button{
+        width: 100%;
+    }
+    .heroImageContainer{
+        position: static;
+    }
+}
+@media (max-width: 380px){}

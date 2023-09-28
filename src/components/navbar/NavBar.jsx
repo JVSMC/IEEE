@@ -19,7 +19,7 @@ function NavBar() {
         <nav className='navbar'>
             <ul className='logoLink'>
                 <li>
-                    <NavLink to='/' className={({isActive})=>{isActive ? 'active' : ''}}>
+                    <NavLink to='/' className={({isActive})=>{isActive ? 'active' : ''}} reloadDocument>
                         <h1>
                             <span className='navTitle'>IEEE</span>
                             <span>Guadalajara</span>
@@ -60,6 +60,7 @@ function NavBar() {
             </ul>
             <img src={logo} alt="IEEE" />
             <FontAwesomeIcon icon={faBars} className="icon-menu menuBars" onClick={handleGNav}/>
+            
         </nav>
     );
 }

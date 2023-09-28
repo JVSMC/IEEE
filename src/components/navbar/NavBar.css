@@ -90,7 +90,7 @@ nav img {
     nav .menu{
         position: fixed;
         flex-direction: column;
-        top: 6rem;
+        top: 4rem;
         right: -300px;
         background-color: var(--blue-primary);
         bottom: 0;

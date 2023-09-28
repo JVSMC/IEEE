@@ -6,6 +6,9 @@ import NotFound from "./pages/notFound/NotFound";
 import CapTecnico from "./pages/capTec/CapTec";
 import RamEstudiantil from "./pages/ramEst/RamEst";
 import GrupAfinidad from "./pages/grupoAfinidad/GrupAfinidad";
+import Formulario from "./components/formulario/Formulario";
+import Footer from "./components/footer/Footer";
+
 
 
 function App() {
@@ -23,6 +26,9 @@ function App() {
                     <Route path="*" element={<NotFound/>}/>
                 </Routes>
             </BrowserRouter>
+            <Formulario/>
+            <GlobalNavBar position='bottom' />
+            <Footer/>
         </>
      );
 }

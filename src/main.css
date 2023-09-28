@@ -48,3 +48,7 @@ a{
     color: var(--white-primary);
     margin: 0 .3rem;
 }
+button:hover{
+    transform: translateY(-5px);
+    color: var(--Color3) !important;
+}

@@ -3,8 +3,6 @@ import imgHero from '../heroHeader/matthew-osborn-wMRIcT86SWU-unsplash.webp'
 
 
 function HeroHeader() {
-
-
     return ( 
         <section className='heroContainer'>
             <div className='heroLeft'>

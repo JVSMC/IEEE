@@ -1,24 +1,20 @@
 import HeroHeader from "../../components/heroHeader/HeroHeader";
 
-// import { useLocation } from "react-router-dom";
-// import { useEffect } from "react";
+
+
 
 
 function Index() {
 
-    // const location = useLocation();
+    const topic = 'Eleva tu carrera profesional al siguiente nivel';
+    const infoText = 'Mediante la promoción y aplicación de la ciencia y tecnología, nuestro enfoque en el beneficio comunitario te brindará oportunidades únicas para crecer.';
+    const stButton = true;
+    const pathImage = 'src/components/heroHeader/matthew-osborn-wMRIcT86SWU-unsplash.webp';
 
-    // useEffect(() => {
-    //     // Esta función se ejecutará cada vez que la ubicación de la ruta cambie
-    //     window.scrollTo(0, 0);
-    // }, [location]); // Asegura que se ejecute cuando 'location' cambie
-
-    
     return (
         <>
-            <HeroHeader />            
+            <HeroHeader textH2={topic} textP={infoText} stButton={stButton} imageH={pathImage} />
         </>
-
     );
 }
 

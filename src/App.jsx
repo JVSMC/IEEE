@@ -8,15 +8,16 @@ import RamEstudiantil from "./pages/ramEst/RamEst";
 import GrupAfinidad from "./pages/grupoAfinidad/GrupAfinidad";
 import Formulario from "./components/formulario/Formulario";
 import Footer from "./components/footer/Footer";
+import ScrollToTop from "./helpers/ScrollToTop";
 
 
 
 function App() {
-
     return ( 
         <>
             <GlobalNavBar position = 'top'/>
             <BrowserRouter>
+            <ScrollToTop/>
                 <NavBar/>
                 <Routes>
                     <Route index element={<Index/>}/>

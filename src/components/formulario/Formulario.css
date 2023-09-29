@@ -100,3 +100,23 @@
         width: auto;
     }
 }
+@media (max-width: 480px){
+    .textComp{
+        padding-left: 3rem;
+    }
+    .formContainer .textComp h2,
+    .formContainer .textComp p{
+        width: 90%;
+    }
+    .formContainer .textComp h2{
+        margin-top: 2.45rem;
+    }
+    .formContainer .textComp p{
+        margin-bottom: 2.19rem;
+    }
+}
+@media (max-width: 380px){
+    .textComp{
+        padding: 0 2rem;
+    }
+}

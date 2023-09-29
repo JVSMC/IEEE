@@ -132,3 +132,14 @@ nav img {
         display: none;
     }
 }
+
+@media (max-width: 480px){
+    nav .menu{
+        width: 40%;
+    }
+}
+@media (max-width: 380px){
+    nav .menu{
+        width: 45%;
+    }
+}

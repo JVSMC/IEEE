@@ -1,4 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { fas } from '@fortawesome/free-solid-svg-icons'
+
 import GlobalNavBar from "./components/globalNavBar/GlobalNavBar";
 import NavBar from "./components/navbar/NavBar";
 import Index from "./pages/index/Index";
@@ -9,6 +13,12 @@ import GrupAfinidad from "./pages/grupoAfinidad/GrupAfinidad";
 import Formulario from "./components/formulario/Formulario";
 import Footer from "./components/footer/Footer";
 import ScrollToTop from "./helpers/ScrollToTop";
+import Filosofia from "./pages/filosofia/Filosofia";
+
+
+
+// This exports the whole icon packs for Brand and Solid.
+library.add(fab, fas)
 
 
 
@@ -24,6 +34,7 @@ function App() {
                     <Route path="capitulos-tecnicos" element={<CapTecnico/>}/>
                     <Route path="ramas-estudiantiles" element={<RamEstudiantil/>}/>
                     <Route path="grupos-de-afinidad" element={<GrupAfinidad/>}/>
+                    <Route path="filosofia" element={<Filosofia/>}/>
                     <Route path="*" element={<NotFound/>}/>
                 </Routes>
             </BrowserRouter>

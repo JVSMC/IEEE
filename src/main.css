@@ -1,20 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 
 :root{
+    /*IEEE Section Oficial Colors*/
     --background: #FFFFFF;
     --white-primary: #fff;
+    --blue-primary: #0073AE;
+    --blue-secondary: #00AEEF;
+    --blue-tertiary: #182A54;
+
+    /*IEEE Oficial Colors*/
     --Color2: #00AEEF;
     --Color3: #00567D;
     --Color8: #638B1C;
     --Color7: #74BB23;
+
+    /*Font size*/
+    --Title-max: 4.4rem;
+    --Title-med: 4rem;
+    --Title-min: 2.5rem;
+
+    --Subtitle-max: 2.5rem;
+    --Subtitle-med: 2rem;
+    --Subtitle-min: 1.6rem;
+
+    --Text-max: 1.6rem;
+    --Text-med: 1.4rem;
+    --Text-min: 1.2rem;
+    --Text-min-2: 1rem
+
 }
 *{
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
     list-style: none;
-    text-decoration: none;
     box-sizing: border-box;
+    text-decoration: none;
+    font-style: normal;
+    line-height: normal;
 }
 
 body::-webkit-scrollbar {
@@ -40,15 +63,54 @@ body {
 }
 
 a{
-    font-size: 1rem;
+    font-size: var(--Text-min-2);
     transition: 0.3s;
 }
-
-.icon-menu{
-    color: var(--white-primary);
-    margin: 0 .3rem;
+p{
+    color: var(--blue-tertiary);
 }
 button:hover{
     transform: translateY(-5px);
     color: var(--Color3) !important;
+}
+.icon-menu{
+    color: var(--white-primary);
+    margin: 0 .3rem;
+}
+.spaceBtwComp {
+    margin: 6.56rem 0;
+}
+.cardsContainer{
+    background-color: var(--background);
+    display: flex;
+    justify-content: space-around;
+    padding: 6.56rem 12rem;
+}
+@media (max-width: 1440px){
+    .cardsContainer{
+        /* justify-content: space-between; */
+        padding: 3.5rem 7.5rem;
+    }
+}
+@media (max-width: 1280px){
+    .cardsContainer{
+        padding: 3.5rem 4.5rem;
+    }
+}
+@media (max-width: 960px){
+    .cardsContainer{
+        flex-direction: column;
+        padding: 1.5rem;
+    }
+}
+.KnowMore {
+    color: var(--blue-primary);
+    font-weight: 700;
+}
+.KnowMore:hover {
+    text-shadow: 1px 1px 5px rgba(124, 123, 123, 0.404);
+}
+.band{
+    background-color: rgba(0, 174, 239, 0.20);
+    padding: 2.56rem 6.25rem;
 }

@@ -31,6 +31,7 @@
     margin-top: 4.45rem;
 }
 .formContainer .textComp p{
+    color: var(--white-primary);
     font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;

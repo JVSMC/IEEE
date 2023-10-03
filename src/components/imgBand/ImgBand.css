@@ -1,0 +1,23 @@
+.band{
+    /* display: flex; */
+    position: relative;
+    margin: 2.81rem 0;
+}
+.band  h3{
+    font-size: var(--Title-min);
+    color: var(--blue-secondary, #00AEEF);
+}
+.band  p{
+    font-size: var(--Text-min);
+    width: 55.125rem;
+    margin: 1.2rem 0;
+}
+.band img{
+    position: absolute;
+    right: 3.75rem;
+    top: 50%;
+    transform: translate(-0%, -50%);
+    width: 31.625rem;
+    height: 25.3125rem;
+    border-radius: var(--borderRound_2, 1.25rem);
+}

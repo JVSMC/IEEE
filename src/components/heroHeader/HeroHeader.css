@@ -1,12 +1,6 @@
 :root {
     --blue-tertiary: #182A54;
     --white-primary: #fff;
-
-    /*Degradado*/
-    /* --Color2: #00AEEF;
-    --Color3: #00567D;
-    --Color7: #74BB23;
-    --Color8: #638B1C; */
 }
 
 .heroContainer {
@@ -25,17 +19,20 @@
 }
 
 .heroContainer .heroLeft .heroTextContainer{
-    margin: 7.6rem 5.5rem;
+    margin: 5.5rem;
     color: var(--white-primary);
 }
 
 .heroContainer .heroTextContainer h1 {
-    font-size: 2.5rem;
+    font-size: var(--Title-med);
     margin-bottom: 1.2rem;
-    width: 34.125rem;
+    width: 100%;
 }
 
 .heroContainer .heroTextContainer p {
+    /* font-size: 1.5rem; */
+    color: var(--white-primary);
+    font-size: var(--Text-min);
     margin-bottom: 3.19rem;
     width: 32.9375rem;
 }
@@ -47,7 +44,7 @@
     color: var(--white-primary);
     background-color: var(--Color2);
     border-radius: 1rem;
-    font-size: 1.25rem;
+    font-size: var(--Text-med);
     font-weight: 700;
     border: none;
     cursor: pointer;
@@ -87,7 +84,7 @@
 .heroImageContainer img{
     /* display: none; */
     width: 58.0625rem;
-    height: 34.062rem;
+    /* height: 34.062rem; */
 }
 
 @media (max-width:1440px){
@@ -95,7 +92,19 @@
         height: auto;
     }
     .heroContainer .heroLeft .heroTextContainer{
-        margin: 5.6rem 3.5rem;
+        margin: 3.5rem;
+    }
+    .heroContainer .heroTextContainer h1 {
+        font-size: var(--Subtitle-med);
+        width: 80%;
+    }
+    .heroContainer .heroTextContainer p {
+        font-size: var(--Text-min);
+        margin-bottom: 3.19rem;
+        width: 67%;
+    }
+    .heroContainer .heroTextContainer button {
+        font-size: var(--Text-min);
     }
     .heroDivisor{
         -webkit-clip-path: polygon(86% 0,100% 0,62% 100%,48% 100%);
@@ -107,8 +116,10 @@
     }
 }
 @media ( max-width: 1280px){
-    .heroContainer .heroLeft .heroTextContainer{
-        margin: 4.61rem 2.5rem;
+    .heroContainer .heroTextContainer p {
+        font-size: var(--Text-min);
+        margin-bottom: 2.19rem;
+        width: 70%;
     }
     .heroDivisor{
         -webkit-clip-path: polygon(86% 0,100% 0,66% 100%,51% 100%);
@@ -121,17 +132,15 @@
 @media (max-width: 960px){
     .heroContainer .heroLeft .heroTextContainer{
         margin: 1.88rem 1.5rem;
-    }    
+    }
     .heroContainer .heroTextContainer h1 {
-        width: 20.75rem;
-        height: 8.1875rem;
-        font-size: 2rem;
-        margin-bottom: 0rem;
+        font-size: var(--Subtitle-min);
+        width: 100%;
     }
     .heroContainer .heroTextContainer p {
-        width: 20.3125rem;
-        height: 6.1875rem;
-        margin: 1.38rem 0;
+        font-size: var(--Text-min);
+        margin-bottom: 1.5rem;
+        width: 90%;
     }
     .heroContainer .heroTextContainer button{
         padding: 0.625rem 3.125rem;
@@ -174,7 +183,7 @@
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     }
-    .heroContainer .heroTextContainer h1,
+    
     .heroContainer .heroTextContainer p,
     .heroContainer .heroTextContainer button{
         width: 100%;

@@ -1,5 +1,5 @@
 import '../heroHeader/HeroHeader.css';
-import imgHero from '../heroHeader/matthew-osborn-wMRIcT86SWU-unsplash.webp'
+
 
 
 function HeroHeader({textH2, textP, stButton, imageH }) {

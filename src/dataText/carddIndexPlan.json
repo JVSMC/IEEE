@@ -1,0 +1,23 @@
+[
+    {
+        "id": "1",
+        "title": "Plan de Tabajo",
+        "text": "Explora el emocionante camino que trazamos en el IEEE Guadalajara a través de nuestro detallado Plan de Trabajo. ¡Conócelo ahora y únete a nosotros en esta aventura tecnológica!",
+        "icon": "fa-solid fa-list-check",
+        "url": "/plan-de-trabajo"
+    },
+    {
+        "id": "2",
+        "title": "Comité y Voluntariados",
+        "text": "Descubre cómo marcar la diferencia con el IEEE Guadalajara a través de oportunidades de Comité y Voluntariado. Únete para contribuir y crecer juntos en tecnología.",
+        "icon": "fa-solid fa-users",
+        "url": "/comite-y-voluntariados"
+    },
+    {
+        "id": "3",
+        "title": "Valores",
+        "text": "Adéntrate en los cimientos de nuestra comunidad en los valores de la IEEE Guadalajara. Conoce cómo moldeamos la excelencia tecnológica a través de nuestra ética y compromiso.",
+        "icon": "fa-solid fa-hand-holding-heart",
+        "url": "/filosofia"
+    }
+]

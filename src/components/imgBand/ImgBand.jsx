@@ -6,7 +6,7 @@ function ImgBand({ bandTitle, bandText, bandUrl, bandImg }) {
     return (
         <div className="band">
             <div>
-                <h3>{bandTitle}</h3>
+                <h2>{bandTitle}</h2>
                 <p>{bandText}</p>
                 <Link to={bandUrl} className="KnowMore">Saber Más</Link>
             </div>

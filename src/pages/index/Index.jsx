@@ -2,7 +2,7 @@ import Cards from "../../components/cards/Cards";
 import HeroHeader from "../../components/heroHeader/HeroHeader";
 import ImgBand from "../../components/imgBand/ImgBand";
 
-import cardsData from '../../dataText/carddIndexPlan.json';
+import cardsData from '../../dataText/cardsIndexPlan.json';
 import bandData from '../../dataText/historia.json';
 
 
@@ -19,13 +19,14 @@ function Index() {
             <HeroHeader textH2={topic} textP={infoText} stButton={stButton} imageH={pathImage} />
             <section className="cardsContainer">
                 {
-                    cardsData.map(({ id, icon, title, text, url }) =>
+                    cardsData.map(({ id, icon, title, text, url, stButton }) =>
                         <Cards
                             key={id}
                             cardIcon={icon}
                             cardTitle={title}
                             cardText={text}
                             cardUrl={url}
+                            stButton={stButton}
                         />
                     )
                 }

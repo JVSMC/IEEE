@@ -84,33 +84,33 @@ button:hover{
     background-color: var(--background);
     display: flex;
     justify-content: space-around;
-    padding: 6.56rem 12rem;
-}
-@media (max-width: 1440px){
-    .cardsContainer{
-        /* justify-content: space-between; */
-        padding: 3.5rem 7.5rem;
-    }
-}
-@media (max-width: 1280px){
-    .cardsContainer{
-        padding: 3.5rem 4.5rem;
-    }
-}
-@media (max-width: 960px){
-    .cardsContainer{
-        flex-direction: column;
-        padding: 1.5rem;
-    }
+    padding: 6.56rem 12rem 0 12rem;
 }
 .KnowMore {
     color: var(--blue-primary);
     font-weight: 700;
+    font-size: var(--Text-min);
 }
 .KnowMore:hover {
     text-shadow: 1px 1px 5px rgba(124, 123, 123, 0.404);
 }
-.band{
-    background-color: rgba(0, 174, 239, 0.20);
-    padding: 2.56rem 6.25rem;
+@media (max-width: 1440px){
+    .cardsContainer{
+        /* justify-content: space-between; */
+        padding: 3.5rem 7.5rem 0 7.5rem;
+    }
+}
+@media (max-width: 1280px){
+    .cardsContainer{
+        padding: 3.5rem 4.5rem 0 4.5rem;
+    }
+}
+@media (max-width: 960px){
+    .spaceBtwComp{
+        margin: 1.5rem 0;
+    }
+    .cardsContainer{
+        flex-direction: column;
+        padding: 1.5rem;
+    }
 }

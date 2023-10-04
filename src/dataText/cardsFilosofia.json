@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Misión",
+        "text": "Promover la divulgación tecnológica, intercambio de información técnica, y herramientas de desarrollo profesional entre la comunidad de ingenieros y científicos de IEEE Sección Guadalajara.",
+        "icon": "fa-solid fa-rocket",
+        "url": "",
+        "stButton": false
+    },
+    {
+        "id": 2,
+        "title": "Visión",
+        "text": "Ser reconocidos como el mejor recurso para los ingenieros y científicos y en general la comunidad profesional de Jalisco, Nayarit y Zacatecas en contribuciones para el desarrollo profesional, la innovación y desarrollo tecnológico.",
+        "icon": "fa-solid fa-binoculars",
+        "url": "",
+        "stButton": false
+    },
+    {
+        "id": 3,
+        "title": "Valores",
+        "text": "Confianza, Comunidad Global, Integridad en Acción, Servicio a la humanidad, Alianzas, Crecimiento y Educación.",
+        "icon": "fa-solid fa-scale-balanced",
+        "url": "",
+        "stButton": false
+    }
+]

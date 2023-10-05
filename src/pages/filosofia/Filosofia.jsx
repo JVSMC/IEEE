@@ -4,7 +4,7 @@ import cardsData from '../../dataText/cardsFilosofia.json'
 function Filosofia() {
     return (
         <div className="spaceBtwComp">
-            <h2>Nuestra Filosofía</h2>
+            <h2 className="titleSection">Nuestra Filosofía</h2>
             <section className="cardsContainer">
                 {
                     cardsData.map(({ id, icon, title, text, url, stButton }) =>

@@ -26,7 +26,9 @@
     --Text-max: 1.6rem;
     --Text-med: 1.4rem;
     --Text-min: 1.2rem;
-    --Text-min-2: 1rem
+    --Text-min-2: 1rem;
+
+    --borderRound_2: 1.25rem;
 
 }
 *{
@@ -77,9 +79,6 @@ button:hover{
     color: var(--white-primary);
     margin: 0 .3rem;
 }
-.spaceBtwComp {
-    margin: 6.56rem 0;
-}
 .cardsContainer{
     background-color: var(--background);
     display: flex;
@@ -94,6 +93,9 @@ button:hover{
 .KnowMore:hover {
     text-shadow: 1px 1px 5px rgba(124, 123, 123, 0.404);
 }
+.spaceBtwComp {
+    margin: 6.56rem 0;
+}
 .spaceBtwComp .titleSection{
     margin: 0 5.5rem;
     font-size: var(--Title-min);
@@ -106,6 +108,7 @@ button:hover{
     }
     .spaceBtwComp .titleSection{
         font-size: var(--Subtitle-min);
+        margin: 0 3.5rem;
     }
 }
 @media (max-width: 1280px){
@@ -116,6 +119,10 @@ button:hover{
 @media (max-width: 960px){
     .spaceBtwComp{
         margin: 1.5rem 0;
+    }
+    .spaceBtwComp .titleSection{
+        font-size: var(--Subtitle-min);
+        margin: 0 1.5rem;
     }
     .cardsContainer{
         flex-direction: column;

@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name": "Yehoshua Aguilar",
+        "position": "Presidente",
+        "url": "https://linkedin.com/",
+        "img": "https://swiperjs.com/demos/images/nature-1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Carlos Jesahel Vega",
+        "position": "Vicepresidente",
+        "url": "https://linkedin.com/",
+        "img": "https://swiperjs.com/demos/images/nature-1.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Miriam E. Camarena",
+        "position": "Secretario",
+        "url": "https://linkedin.com/",
+        "img": "https://swiperjs.com/demos/images/nature-1.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Luis F. Luque Vega",
+        "position": "Tesorero",
+        "url": "https://linkedin.com/",
+        "img": "https://swiperjs.com/demos/images/nature-1.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Jesús Alejando Acosta Franco",
+        "position": "Coordinación del e-notice.",
+        "url": "https://linkedin.com/",
+        "img": "https://swiperjs.com/demos/images/nature-1.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Erick Castellanos",
+        "position": "Aerospace and Electronics Systems",
+        "url": "https://linkedin.com/",
+        "img": "https://swiperjs.com/demos/images/nature-1.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Ruben Barrera",
+        "position": "Tesorero",
+        "url": "https://linkedin.com/",
+        "img": "https://swiperjs.com/demos/images/nature-1.jpg"
+    }
+]

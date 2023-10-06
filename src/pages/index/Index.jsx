@@ -1,6 +1,7 @@
 import Cards from "../../components/cards/Cards";
 import HeroHeader from "../../components/heroHeader/HeroHeader";
 import ImgBand from "../../components/imgBand/ImgBand";
+import ImgSlider from "../../components/imgSlider/ImgSlider";
 
 import cardsData from '../../dataText/cardsIndexPlan.json';
 import bandData from '../../dataText/historia.json';
@@ -43,6 +44,9 @@ function Index() {
                         />
                     ))
                 }
+            </section>
+            <section className="spaceBtwComp">
+                <ImgSlider/>
             </section>
 
         </>

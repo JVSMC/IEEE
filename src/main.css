@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 
-:root{
+:root {
     /*IEEE Section Oficial Colors*/
     --background: #FFFFFF;
     --white-primary: #fff;
@@ -31,7 +31,8 @@
     --borderRound_2: 1.25rem;
 
 }
-*{
+
+* {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
@@ -64,67 +65,92 @@ body {
     overflow-x: clip;
 }
 
-a{
+a {
     font-size: var(--Text-min-2);
     transition: 0.3s;
 }
-p{
+
+p {
     color: var(--blue-tertiary);
 }
-button:hover{
+button{
+    font-weight: 600;
+    cursor: pointer;
+}
+button:hover {
     transform: translateY(-5px);
     color: var(--Color3) !important;
 }
-.icon-menu{
+
+.icon-menu {
     color: var(--white-primary);
     margin: 0 .3rem;
 }
-.cardsContainer{
+
+.cardsContainer {
     background-color: var(--background);
     display: flex;
     justify-content: space-around;
     padding: 6.56rem 12rem 0 12rem;
 }
+
 .KnowMore {
     color: var(--blue-primary);
     font-weight: 700;
     font-size: var(--Text-min);
 }
+
 .KnowMore:hover {
     text-shadow: 1px 1px 5px rgba(124, 123, 123, 0.404);
 }
+
 .spaceBtwComp {
     margin: 6.56rem 0;
 }
-.spaceBtwComp .titleSection{
+
+.spaceBtwComp .titleSection {
     margin: 0 5.5rem;
     font-size: var(--Title-min);
     color: var(--blue-tertiary);
 }
-@media (max-width: 1440px){
-    .cardsContainer{
+
+.cardLinksContainer{
+    margin: 6rem 0 0 0;
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: 12rem;
+    grid-template-columns: repeat(auto-fill,minmax(15rem, 1fr));
+}
+
+@media (max-width: 1440px) {
+    .cardsContainer {
         /* justify-content: space-between; */
         padding: 3.5rem 7.5rem 0 7.5rem;
     }
-    .spaceBtwComp .titleSection{
+
+    .spaceBtwComp .titleSection {
         font-size: var(--Subtitle-min);
         margin: 0 3.5rem;
     }
 }
-@media (max-width: 1280px){
-    .cardsContainer{
+
+@media (max-width: 1280px) {
+    .cardsContainer {
         padding: 3.5rem 4.5rem 0 4.5rem;
     }
 }
-@media (max-width: 960px){
-    .spaceBtwComp{
+
+@media (max-width: 960px) {
+    .spaceBtwComp {
         margin: 1.5rem 0;
     }
-    .spaceBtwComp .titleSection{
+
+    .spaceBtwComp .titleSection {
         font-size: var(--Subtitle-min);
         margin: 0 1.5rem;
     }
-    .cardsContainer{
+
+    .cardsContainer {
         flex-direction: column;
         padding: 1.5rem;
     }

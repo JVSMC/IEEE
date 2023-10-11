@@ -19,7 +19,7 @@ function ImgSlider() {
 
     return (
         <>
-            <h2 className="titleSection">Nuestros Miembros</h2>
+            <h2 className="titleSection">Nuestros Miembros Principales</h2>
             <Swiper
                 effect={'coverflow'}
                 grabCursor={true}

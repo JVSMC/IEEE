@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "noMembers": 155,
+        "position": "Profesionales"
+    },
+    {
+        "id": 2,
+        "noMembers": 3,
+        "position": "Asociaciones y afiliados"
+    },
+    {
+        "id": 3,
+        "noMembers": 45,
+        "position": "Profesionales SR."
+    },
+    {
+        "id": 4,
+        "noMembers": 1,
+        "position": "SR larga trayectoria"
+    },
+    {
+        "id": 5,
+        "noMembers": 80,
+        "position": "Estudiantes"
+    },
+    {
+        "id": 6,
+        "noMembers": 26,
+        "position": "Estudiantes Graduados"
+    }
+]

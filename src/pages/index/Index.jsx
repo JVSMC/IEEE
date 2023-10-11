@@ -1,6 +1,8 @@
+import CardsLinks from "../../components/cardLink/CardsLinks";
 import Cards from "../../components/cards/Cards";
 import HeroHeader from "../../components/heroHeader/HeroHeader";
 import ImgBand from "../../components/imgBand/ImgBand";
+import ImgMoreInfo from "../../components/imgMoreInfo/ImgMoreInfo";
 import ImgSlider from "../../components/imgSlider/ImgSlider";
 
 import cardsData from '../../dataText/cardsIndexPlan.json';
@@ -13,7 +15,7 @@ function Index() {
     const infoText = 'Mediante la promoción y aplicación de la ciencia y tecnología, nuestro enfoque en el beneficio comunitario te brindará oportunidades únicas para crecer.';
     const stButton = true;
     const pathImage = 'src/dataText/img/matthew-osborn-wMRIcT86SWU-unsplash.webp';
-   
+
 
     return (
         <>
@@ -46,9 +48,20 @@ function Index() {
                 }
             </section>
             <section className="spaceBtwComp">
-                <ImgSlider/>
+                <ImgSlider />
             </section>
-
+            <section className="spaceBtwComp imgMoreInf">
+                <ImgMoreInfo />
+            </section>
+            <section className="spaceBtwComp" id='News'>
+                <h2 className="titleSection">IEEE Sección Guadalajara En Las Noticias</h2>
+                <div className="cardLinksContainer">
+                    <CardsLinks newsUrl='https://www.google.com' newsLogo='img'/>
+                    <CardsLinks newsUrl='https://www.google.com' newsLogo='img'/>
+                    <CardsLinks newsUrl='https://www.google.com' newsLogo='img'/>
+                    <CardsLinks newsUrl='https://www.google.com' newsLogo='img'/>
+                </div>
+            </section>
         </>
     );
 }

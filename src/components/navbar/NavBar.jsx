@@ -38,7 +38,7 @@ function NavBar() {
                     </div>
                     <div className='dropdown-content'>
                         <NavLink to='/calendario' className='menuUrl'>Calendario</NavLink>
-                        <NavLink to='/noticias' className='menuUrl'>Noticias</NavLink>
+                        {/* <a href='/#News' className='menuUrl'>Noticias</a> */}
                         <NavLink to='/premios' className='menuUrl'>Premios</NavLink>
                     </div>
                 </li>

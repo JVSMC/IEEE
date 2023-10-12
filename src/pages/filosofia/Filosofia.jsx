@@ -1,9 +1,14 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Cards from "../../components/cards/Cards";
 import cardsData from '../../dataText/cardsFilosofia.json'
+import { Link } from "react-router-dom";
 
 function Filosofia() {
     return (
         <div className="spaceBtwComp">
+            <Link to = '/' className="icon-back">
+                <FontAwesomeIcon icon="fa-solid fa-circle-arrow-left" />
+            </Link>
             <h2 className="titleSection">Nuestra Filosofía</h2>
             <section className="cardsContainer">
                 {

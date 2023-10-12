@@ -53,9 +53,9 @@
 .imgMoreInf .counterContainer {
     margin: 6rem 0 0 0;
     display: grid;
-    gap: 1rem;
+    gap: 2rem;
     grid-auto-rows: 12rem;
-    grid-template-columns: repeat(auto-fill,minmax(15rem, 1fr));
+    grid-template-columns: repeat(auto-fit,minmax(12rem, 1fr));
     /* grid-template-rows: 1fr;
     grid-template-columns: repeat(auto-fill, 1fr);
     gap: 8px; */

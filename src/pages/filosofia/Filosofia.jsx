@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Cards from "../../components/cards/Cards";
-import cardsData from '../../dataText/cardsFilosofia.json'
+import cardsData from '../../dataIEEE/cardsFilosofia.json'
 import { Link } from "react-router-dom";
 
 function Filosofia() {

@@ -12,7 +12,7 @@ import '../imgSlider/ImgSlider.css'
 // import required modules
 import { EffectCoverflow, Pagination } from 'swiper/modules';
 
-import membersData from '../../dataText/membersIEEEIndex.json'
+import membersData from '../../dataIEEE/membersIEEEIndex.json'
 
 
 function ImgSlider() {

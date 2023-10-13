@@ -1,6 +1,6 @@
 import '../imgMoreInfo/ImgMoreInfo.css';
 import imgState from '../imgMoreInfo/JNZ_2_animated.svg';
-import counterMembersData from '../../dataText/counterMembers.json';
+import counterMembersData from '../../dataIEEE/counterMembers.json';
 
 function ImgMoreInfo() {
     return (

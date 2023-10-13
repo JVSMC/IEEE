@@ -5,8 +5,8 @@ import ImgBand from "../../components/imgBand/ImgBand";
 import ImgMoreInfo from "../../components/imgMoreInfo/ImgMoreInfo";
 import ImgSlider from "../../components/imgSlider/ImgSlider";
 
-import cardsData from '../../dataText/cardsIndexPlan.json';
-import bandData from '../../dataText/historia.json';
+import cardsData from '../../dataIEEE/cardsIndexPlan.json';
+import bandData from '../../dataIEEE/historia.json';
 
 
 function Index() {
@@ -14,7 +14,7 @@ function Index() {
     const topic = 'Eleva tu carrera profesional al siguiente nivel';
     const infoText = 'Mediante la promoción y aplicación de la ciencia y tecnología, nuestro enfoque en el beneficio comunitario te brindará oportunidades únicas para crecer.';
     const stButton = true;
-    const pathImage = 'src/dataText/img/matthew-osborn-wMRIcT86SWU-unsplash.webp';
+    const pathImage = 'src/dataIEEE/img/matthew-osborn-wMRIcT86SWU-unsplash.webp';
 
 
     return (

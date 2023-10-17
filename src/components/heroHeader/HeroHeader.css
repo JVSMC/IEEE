@@ -187,9 +187,13 @@
     .heroContainer .heroTextContainer p,
     .heroContainer .heroTextContainer button{
         width: 100%;
+        text-align: justify;
     }
     .heroImageContainer{
         position: static;
+    }
+    .heroImageContainer img{
+        width: 100%;
     }
 }
 @media (max-width: 380px){}

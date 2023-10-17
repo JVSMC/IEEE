@@ -14,6 +14,7 @@ import Formulario from "./components/formulario/Formulario";
 import Footer from "./components/footer/Footer";
 import ScrollToTop from "./helpers/ScrollToTop";
 import Filosofia from "./pages/filosofia/Filosofia";
+import ComiteVolun from "./pages/comiteVolun/ComiteVolun";
 
 
 
@@ -35,7 +36,7 @@ function App() {
                     <Route path="ramas-estudiantiles" element={<RamEstudiantil/>}/>
                     <Route path="grupos-de-afinidad" element={<GrupAfinidad/>}/>
                     <Route path="filosofia" element={<Filosofia/>}/>
-                    <Route path="*" element={<NotFound/>}/>
+                    <Route path='comite-y-voluntariados' element= {<ComiteVolun/>}/>                  <Route path="*" element={<NotFound/>}/>
                 </Routes>
             </BrowserRouter>
             <Formulario/>

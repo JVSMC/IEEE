@@ -62,7 +62,7 @@ html {
 }
 
 body {
-    overflow-x: clip;
+    overflow-x: hidden;
 }
 
 a {
@@ -129,6 +129,22 @@ button:hover {
     align-items: center;
 }
 
+.infoMember h4 {
+    width: inherit;
+    background-color: var(--blue-primary);
+    color: var(--white-primary);
+    text-align: right;
+    font-size: var(--Subtitle-min);
+}
+
+.infoMember p {
+    width: fit-content;
+    background-color: var(--blue-secondary);
+    font-size: var(--Text-med);
+    font-weight: 600;
+    color: var(--blue-tertiary);
+}
+
 @media (max-width: 1440px) {
     .cardsContainer {
         /* justify-content: space-between; */
@@ -138,6 +154,10 @@ button:hover {
     .spaceBtwComp .titleSection {
         font-size: var(--Subtitle-min);
         margin: 0 3.5rem;
+    }
+
+    .cardLinksContainer{
+        padding: 0 2.5rem;
     }
 }
 

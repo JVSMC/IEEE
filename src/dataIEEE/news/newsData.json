@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "url": "https://google.com",
+        "newsletter": "Revista",
+        "img": ""
+    },
+    {
+        "id": 2,
+        "url": "https://google.com",
+        "newsletter": "Revista",
+        "img": ""
+    },
+    {
+        "id": 3,
+        "url": "https://google.com",
+        "newsletter": "Revista",
+        "img": ""
+    },
+    {
+        "id": 4,
+        "url": "https://google.com",
+        "newsletter": "Revista",
+        "img": ""
+    }
+]

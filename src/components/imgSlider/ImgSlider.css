@@ -31,22 +31,12 @@
 }
 
 .swiper-slide .infoMember h4 {
-    width: inherit;
-    background-color: var(--blue-primary);
-    color: var(--white-primary);
-    text-align: right;
-    font-size: var(--Subtitle-min);
     padding: 1.25rem 1rem;
 }
 
 .swiper-slide .infoMember p {
-    width: fit-content;
-    background-color: var(--blue-secondary);
     margin: 1.25rem 0rem 1.25rem auto;
     padding: 1.25rem 3rem;
-    font-size: var(--Text-med);
-    font-weight: 600;
-    color: var(--blue-tertiary);
 }
 
 @media (max-width: 1440px) {
@@ -75,5 +65,12 @@
     .swiper-slide {
         height: 24.3125rem;
         width: 18.0625rem;
+    }
+    .swiper-slide .infoMember h4 {
+        font-size: var(--Text-min);
+    }
+
+    .swiper-slide .infoMember p {
+        font-size: var(--Text-min-2);
     }
 }

@@ -1,5 +1,7 @@
 import dataImg from '../../dataIEEE/notFound/notFoundImg.json';
 
+/* The code defines a React functional component called `NotFound`. This component is responsible for
+rendering a "404 Page Not Found" message along with an image and a description. */
 function NotFound() {
     let { imgData } = dataImg;
     const max = imgData.length;

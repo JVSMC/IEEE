@@ -74,6 +74,7 @@
 .form button{
     cursor: pointer;
     font-weight: 600;
+    transition: all .3s ease-in-out;
 }
 .form button:hover{
     background-color: var(--blue-secondary);

@@ -7,6 +7,7 @@ import ImgSlider from "../../components/imgSlider/ImgSlider";
 
 import cardsData from '../../dataIEEE/cardsIndexPlan.json';
 import bandData from '../../dataIEEE/historia.json';
+import newsData from '../../dataIEEE/news/newsData.json';
 
 
 function Index() {
@@ -56,10 +57,16 @@ function Index() {
             <section className="spaceBtwComp" id='News'>
                 <h2 className="titleSection">IEEE Sección Guadalajara En Las Noticias</h2>
                 <div className="cardLinksContainer">
-                    <CardsLinks newsUrl='https://www.google.com' newsLogo='img'/>
-                    <CardsLinks newsUrl='https://www.google.com' newsLogo='img'/>
-                    <CardsLinks newsUrl='https://www.google.com' newsLogo='img'/>
-                    <CardsLinks newsUrl='https://www.google.com' newsLogo='img'/>
+                    {
+                        newsData.map(({id, url, newsletter, img})=>(
+                            <CardsLinks key={id} 
+                                cardName={newsletter} 
+                                cardUrl = {url}
+                                cardPosition="" 
+                                cardHide={false} 
+                                cardImg = {img}/>
+                        ))
+                    }
                 </div>
             </section>
         </>

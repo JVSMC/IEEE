@@ -1,0 +1,14 @@
+{
+    "indexData": [
+        "Eleva tu carrera profesional al siguiente nivel",
+        "Mediante la promoción y aplicación de la ciencia y tecnología, nuestro enfoque en el beneficio comunitario te brindará oportunidades únicas para crecer.",
+        true,
+        "src/dataIEEE/heroHeader/img/matthew-osborn-wMRIcT86SWU-unsplash.webp"
+    ],
+    "capitulosData": [
+        "Capítulos técnicos",
+        "Únete a los Capítulos Técnicos de la IEEE y sumérgete en la vanguardia de la tecnología. Conéctate con expertos, participa en eventos y avanza en tu campo preferido.",
+        false,
+        "src/dataIEEE/heroHeader/img/jakob-dalbjorn-cuKJre3nyYc-unsplash.webp"
+    ]
+}

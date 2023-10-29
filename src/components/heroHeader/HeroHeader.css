@@ -6,11 +6,12 @@
 .heroContainer {
     display: flex;
     height: 34.0625rem;
+    position: relative;
 }
 
 .heroContainer .heroLeft{
     position: relative;
-    z-index: 0;
+    /* z-index: 0; */
     display: flex;
     width: 58%;
     background-color: var(--blue-tertiary);
@@ -75,21 +76,18 @@
     position: absolute;
     right: 0;
     z-index: -1;
+    width: 58.0625rem;
+    height: inherit;
     /* width: 50%;
     height: inherit;
     background: linear-gradient(0deg, rgba(116, 187, 35, 0.20) 0%, rgba(116, 187, 35, 0.20) 100%), url(./matthew-osborn-wMRIcT86SWU-unsplash.webp);
     background-size: cover;
     background-position: center; */
 }
-.heroImageContainer img{
-    /* display: none; */
-    width: 58.0625rem;
-    /* height: 34.062rem; */
-}
 
 @media (max-width:1440px){
     .heroContainer {
-        height: auto;
+        height: 26.7rem;
     }
     .heroContainer .heroLeft .heroTextContainer{
         margin: 3.5rem;
@@ -110,9 +108,8 @@
         -webkit-clip-path: polygon(86% 0,100% 0,62% 100%,48% 100%);
         clip-path: polygon(86% 0,100% 0,62% 100%,48% 100%);
     }
-    .heroImageContainer img{
+    .heroImageContainer{
         width: 44.7rem;
-        height: auto;
     }
 }
 @media ( max-width: 1280px){
@@ -125,11 +122,14 @@
         -webkit-clip-path: polygon(86% 0,100% 0,66% 100%,51% 100%);
         clip-path: polygon(86% 0,100% 0,66% 100%,51% 100%);
     }
-    .heroImageContainer img{
-        width: 41.262rem;
+    .heroImageContainer{
+        width: 40.262rem;
     }
 }
 @media (max-width: 960px){
+    .heroContainer{
+        height: 22.7rem;
+    }
     .heroContainer .heroLeft .heroTextContainer{
         margin: 1.88rem 1.5rem;
     }
@@ -149,17 +149,17 @@
     .heroDivisor{
         width: 8rem;
     }
-    .heroImageContainer img{
-        width: 37.02325rem;
+    .heroImageContainer{
+        width: 24.02325rem;
     }
 }
 
 @media (max-width: 480px){
     .heroContainer {
         flex-direction: column-reverse;
+        height: auto;
     }
     .heroContainer .heroLeft{
-        /* display: none; */
         width: 100%;
         flex-direction: column;
         position: static;
@@ -187,13 +187,19 @@
     .heroContainer .heroTextContainer p,
     .heroContainer .heroTextContainer button{
         width: 100%;
+    }
+
+    .heroContainer .heroTextContainer p {
         text-align: justify;
     }
+
     .heroImageContainer{
         position: static;
-    }
-    .heroImageContainer img{
         width: 100%;
+        height: 18rem;
     }
+    /* .heroImageContainer img{
+        width: 100%;
+    } */
 }
 @media (max-width: 380px){}

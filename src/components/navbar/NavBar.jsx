@@ -57,6 +57,9 @@ function NavBar() {
                     {/* <Link to = '#ContactUs' className='menuUrl'>Contacto</Link> */}
                     <a href="#ContactUs" className='menuUrl'>Contacto</a>
                 </li>
+                {/* <li>
+                    <NavLink to='/usuarios' className='menuUrl'>Usuarios</NavLink>
+                </li> */}
             </ul>
             <img src={logo} alt="IEEE" />
             <FontAwesomeIcon icon={faBars} className="icon-menu menuBars" onClick={handleGNav}/>

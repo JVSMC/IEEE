@@ -8,19 +8,14 @@ import ImgSlider from "../../components/imgSlider/ImgSlider";
 import cardsData from '../../dataIEEE/cardsIndexPlan.json';
 import bandData from '../../dataIEEE/historia.json';
 import newsData from '../../dataIEEE/news/newsData.json';
-
+import heroData from '../../dataIEEE/heroHeader/dataHeroHeader.json';
 
 function Index() {
 
-    const topic = 'Eleva tu carrera profesional al siguiente nivel';
-    const infoText = 'Mediante la promoción y aplicación de la ciencia y tecnología, nuestro enfoque en el beneficio comunitario te brindará oportunidades únicas para crecer.';
-    const stButton = true;
-    const pathImage = 'src/dataIEEE/img/matthew-osborn-wMRIcT86SWU-unsplash.webp';
-
-
+    const { indexData } = heroData;
     return (
         <>
-            <HeroHeader textH2={topic} textP={infoText} stButton={stButton} imageH={pathImage} />
+            <HeroHeader textH2={ indexData[0] } textP={indexData[1]} stButton={indexData[2]} imageH={indexData[3]} />
             <section className="cardsContainer">
                 {
                     cardsData.map(({ id, icon, title, text, url, stButton }) =>
@@ -56,7 +51,7 @@ function Index() {
             </section>
             <section className="spaceBtwComp" id='News'>
                 <h2 className="titleSection">IEEE Sección Guadalajara En Las Noticias</h2>
-                <div className="cardLinksContainer">
+                <div className="cardLinksContainer centerCards">
                     {
                         newsData.map(({id, url, newsletter, img})=>(
                             <CardsLinks key={id} 

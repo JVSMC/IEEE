@@ -1,0 +1,52 @@
+.spaceBtwComp2{
+    padding: 6.56rem 5.5rem;
+}
+
+.spaceBtwComp2 form {
+    background-color: var(--blue-tertiary);
+    width: 50%;
+    padding: 2.3rem;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+    border-radius: 17px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.spaceBtwComp2 form input, .spaceBtwComp2 form button {
+    font-weight: 600;
+    font-size: var(--Text-min-2);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: var(--borderRound, 0.9375rem);
+    border: 3px solid var(--blue-secondary);
+    background-color: transparent;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    transition: all .3s ease-in-out;
+
+}
+
+.spaceBtwComp2 form input, .spaceBtwComp2 form input::placeholder {
+    color: whitesmoke;
+}
+
+input:active,
+input:focus {
+  border-color: var(--Color8) ;
+  outline: none; 
+}
+
+.spaceBtwComp2 form button {
+    color: var(--white-primary);
+}
+
+.spaceBtwComp2 form button:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+    border: none;
+    background-color: var(--Color7) !important;
+}
+
+/* .spaceBtwComp2 form .btnActive {
+    background-color: var(--Color7);
+} */

@@ -6,11 +6,12 @@ import CardsLinks from "../../components/cardLink/CardsLinks";
 
 function ComiteVolun() {
     return ( 
-        <div className="spaceBtwComp">
-            <Link to = '/' className="icon-back">
+        <div className="spaceBtwComp sbc-s">
+            <Link to = '/' className="icon-back-t">
                 <FontAwesomeIcon icon="fa-solid fa-circle-arrow-left" />
             </Link>
-            <h2 className="titleSection">Comité y voluntarios</h2>
+            <h2 className="titleSection-t">Comité y voluntarios</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ex reprehenderit quia eligendi unde velit numquam, minus maiores quisquam fugit.</p>
             <section className="cardLinksContainer allMembers">
                 {
                     dataAllMemebers.map(({id, name, position, img, url })=>(

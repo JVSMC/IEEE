@@ -1,7 +1,5 @@
 import '../heroHeader/HeroHeader.css';
 
-
-
 function HeroHeader({textH2, textP, stButton, imageH }) {
     return ( 
         <section className='heroContainer'>
@@ -13,8 +11,12 @@ function HeroHeader({textH2, textP, stButton, imageH }) {
                 </div>
                 <div className='heroDivisor'></div>
             </div>
-            <div className='heroImageContainer'>
-                <img src={imageH} alt="Charlas IEEE Sección Guadalajara"/>
+            <div className='heroImageContainer' 
+                style={{
+                    background: `url(${imageH}) center/cover no-repeat, #00AEEF`
+                }}
+            >
+                {/* <img src={imageH} alt="Charlas IEEE Sección Guadalajara"/> */}
             </div>
         </section>
      );

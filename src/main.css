@@ -28,6 +28,7 @@
     --Text-min: 1.2rem;
     --Text-min-2: 1rem;
 
+    --borderRound: 0.9375rem;
     --borderRound_2: 1.25rem;
 
 }
@@ -113,6 +114,10 @@ button:hover {
     margin: 6.56rem 0;
 }
 
+.sbc-s {
+    padding: 0 5.5rem;
+}
+
 .spaceBtwComp .titleSection {
     margin: 0 5.5rem;
     font-size: var(--Title-min);
@@ -120,13 +125,16 @@ button:hover {
 }
 
 .cardLinksContainer{
-    padding: 0 5.5rem;
     margin: 6rem 0 0 0;
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(auto-fit,minmax(15rem, 1fr));
+    /* justify-items: center;
+    align-items: center; */
+}
+
+.cardLinksContainer.centerCards{
     justify-items: center;
-    align-items: center;
 }
 
 .infoMember h4 {
@@ -155,9 +163,11 @@ button:hover {
         font-size: var(--Subtitle-min);
         margin: 0 3.5rem;
     }
-
+    .icon-back{
+        margin: 1rem 3.5rem;
+    }
     .cardLinksContainer{
-        padding: 0 2.5rem;
+        padding: 0 3.5rem;
     }
 }
 
@@ -165,9 +175,14 @@ button:hover {
     .cardsContainer {
         padding: 3.5rem 4.5rem 0 4.5rem;
     }
+    
 }
 
 @media (max-width: 960px) {
+    .cardLinksContainer{
+        justify-items: center;
+        margin-top: 3rem;
+    }
     .spaceBtwComp {
         margin: 1.5rem 0;
     }
@@ -175,6 +190,13 @@ button:hover {
     .spaceBtwComp .titleSection {
         font-size: var(--Subtitle-min);
         margin: 0 1.5rem;
+    }
+
+    .icon-back{
+        margin: 1rem 1.5rem;
+    }
+    .cardLinksContainer{
+        padding: 0 1.5rem;
     }
 
     .cardsContainer {

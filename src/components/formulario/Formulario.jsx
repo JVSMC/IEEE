@@ -15,7 +15,7 @@ function Formulario() {
                 <input type="text" name="user_subject" placeholder="* Asunto" required/>
                 <input type="email" name='user_email' placeholder='* Correo electrónico' required />
                 <textarea name="message"  placeholder="* Hola! dime cómo te podemos ayudar..." rows="4" required></textarea>
-                <button type="submit">Send</button>
+                <button type="submit">Enviar</button>
             </form>
         </div>
     );

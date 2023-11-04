@@ -9,6 +9,12 @@
     /* margin: 0 1.8rem 0 1.81rem; */
 }
 
+.cardLinksContainer.sizeM .cardContainer {
+    width: 100%;
+    height: 28.5rem;
+    margin: 0;
+}
+
 .cardTitle {
     display: flex;
     align-items: center;
@@ -37,9 +43,9 @@
 
 
 @media (max-width: 1440px) {
-    .cardContainer {
-        width: 22.0625rem;
-        /* height: auto; */
+    .cardContainer, .cardLinksContainer.sizeM .cardContainer {
+        /* width: 22.0625rem; */
+        height: auto;
         padding: 2.3rem;
     }
 
@@ -63,6 +69,7 @@
     .cardContainer {
         width: 21.625rem;
     }
+
     .cardTitle .cardIcon {
         font-size: var(--Subtitle-min);
     }
@@ -84,4 +91,4 @@
         height: auto;
         margin: 1.155rem 0;
     }
-} 
+}

@@ -10,5 +10,17 @@
         "Únete a los Capítulos Técnicos de la IEEE y sumérgete en la vanguardia de la tecnología. Conéctate con expertos, participa en eventos y avanza en tu campo preferido.",
         false,
         "src/dataIEEE/heroHeader/img/jakob-dalbjorn-cuKJre3nyYc-unsplash.webp"
+    ],
+    "ramasData": [
+        "Ramas Estudiantiles",
+        "Forma parte de la comunidad estudiantil de la IEEE. Con Ramas Estudiantiles, explora tu pasión por la tecnología, participa en eventos y amplía tu red.",
+        false,
+        "https://images.unsplash.com/photo-1477281765962-ef34e8bb0967?auto=format&fit=crop&q=80&w=1933&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    ],
+    "gruposData": [
+        "Grupos de Afinidad",
+        "Descubre tu nicho en la IEEE a través de Grupos de Afinidad. Conéctate con profesionales que comparten tus intereses, desde mujeres en ingeniería hasta entusiastas de la robótica.",
+        false,
+        "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ]
 }

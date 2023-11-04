@@ -81,11 +81,13 @@
 }
 @media (max-width: 1440px){
     .textComp {
-        /* width: 51.6875rem; */
+        width: 45.6875rem;
         padding-left: 3.5rem;
+        /* background-size: contain; */
     }
     .formContainer .textComp h2{
         font-size: var(--Subtitle-min);
+        width: 30.5rem;
     }
 }
 @media (max-width: 960px){

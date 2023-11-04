@@ -7,11 +7,11 @@ import CardsLinks from "../../components/cardLink/CardsLinks";
 function ComiteVolun() {
     return ( 
         <div className="spaceBtwComp sbc-s">
-            <Link to = '/' className="icon-back-t">
+            <Link to = '/' className="icon-back">
                 <FontAwesomeIcon icon="fa-solid fa-circle-arrow-left" />
             </Link>
-            <h2 className="titleSection-t">Comité y voluntarios</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ex reprehenderit quia eligendi unde velit numquam, minus maiores quisquam fugit.</p>
+            <h2 className="titleSection">Comité y voluntarios</h2>
+            <p>Explora los perfiles de los apasionados miembros de IEEE Sección Guadalajara en LinkedIn y conoce más sobre quienes conforman nuestra vibrante comunidad tecnológica.</p>
             <section className="cardLinksContainer allMembers">
                 {
                     dataAllMemebers.map(({id, name, position, img, url })=>(

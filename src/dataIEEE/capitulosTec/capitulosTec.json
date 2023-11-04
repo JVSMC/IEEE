@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "title": "Sociedad de Computación",
+        "text": "La IEEE Capítulo Guadalajara se dedica a enriquecer a sus miembros con programas y actividades variadas en el campo de la tecnología y la informática. Fundado en septiembre de 2013",
+        "icon": "",
+        "url": "https://github.com/JVSMC",
+        "stButton": true
+    },
+    {
+        "id": 2,
+        "title": "Sociedad de Geociencia y Percepción Remota",
+        "text": "Formación del Capítulo IEEE GRSS en 2012, uniendo a profesionales en geociencias y percepción remota para impulsar investigación y colaboración en México y América Latina.",
+        "icon": "",
+        "url": "https://github.com/JVSMC",
+        "stButton": true
+    },
+    {
+        "id": 3,
+        "title": "Sociedad de Teoría y Técnicas de Microondas",
+        "text": "Pendiente.",
+        "icon": "",
+        "url": "https://github.com/JVSMC",
+        "stButton": true
+    },
+    {
+        "id": 4,
+        "title": "Sociedad de Robótica y Automatización",
+        "text": "IEEE RAS promueve la robótica y automatización. Nuestro capítulo en Guadalajara ofrece actividades y programas en el campo desde mayo 2020.",
+        "url": "https://github.com/JVSMC",
+        "stButton": true
+    },
+    {
+        "id": 5,
+        "title": "Sociedad de Teoría y Técnicas de Microondas",
+        "text": "Pendiente.",
+        "icon": "",
+        "url": "https://github.com/JVSMC",
+        "stButton": true
+    },
+    {
+        "id": 6,
+        "title": "Sociedad de Teoría y Técnicas de Microondas",
+        "text": "",
+        "icon": "",
+        "url": "https://github.com/JVSMC",
+        "stButton": true
+    },
+    {
+        "id": 7,
+        "title": "Sociedad de Robótica y Automatización",
+        "text": "IEEE RAS promueve la robótica y automatización. Nuestro capítulo en Guadalajara ofrece actividades y programas en el campo desde mayo 2020.",
+        "icon": "",
+        "url": "https://github.com/JVSMC",
+        "stButton": true
+    },
+    {
+        "id": 8,
+        "title": "Sociedad de Teoría y Técnicas de Microondas",
+        "text": "Pendiente.",
+        "icon": "",
+        "url": "https://github.com/JVSMC",
+        "stButton": true
+    }
+]

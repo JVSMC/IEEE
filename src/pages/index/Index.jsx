@@ -43,13 +43,13 @@ function Index() {
                     ))
                 }
             </section>
-            <section className="spaceBtwComp">
+            <section className="spaceBtwComp sbc-s">
                 <ImgSlider />
             </section>
             <section className="spaceBtwComp imgMoreInf">
                 <ImgMoreInfo />
             </section>
-            <section className="spaceBtwComp" id='News'>
+            <section className="spaceBtwComp sbc-s" id='News'>
                 <h2 className="titleSection">IEEE Sección Guadalajara En Las Noticias</h2>
                 <div className="cardLinksContainer centerCards">
                     {

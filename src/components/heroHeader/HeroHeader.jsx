@@ -7,7 +7,7 @@ function HeroHeader({textH2, textP, stButton, imageH }) {
                 <div className='heroTextContainer'>
                     <h1>{textH2}</h1>
                     <p>{textP}</p>
-                    <button style={{ display: stButton ? 'block' : 'none' }}>Comenzar a Aprender</button>
+                    <button style={{ display: stButton ? 'block' : 'none' }}> <a href="#ContactUs">Comenzar a Aprender</a> </button>
                 </div>
                 <div className='heroDivisor'></div>
             </div>

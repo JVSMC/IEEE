@@ -42,14 +42,17 @@
     padding: 0.625rem 3.125rem;
     justify-content: center;
     align-items: center;
-    color: var(--white-primary);
     background-color: var(--Color2);
     border-radius: 1rem;
-    font-size: var(--Text-med);
-    font-weight: 700;
     border: none;
     cursor: pointer;
     transition: all .3s ease-in-out;
+}
+
+.heroContainer .heroTextContainer button a{
+    color: var(--white-primary);
+    font-size: var(--Text-med);
+    font-weight: 600;
 }
 
 .heroDivisor{

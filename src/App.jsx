@@ -15,6 +15,7 @@ import Footer from "./components/footer/Footer";
 import ScrollToTop from "./helpers/ScrollToTop";
 import Filosofia from "./pages/filosofia/Filosofia";
 import ComiteVolun from "./pages/comiteVolun/ComiteVolun";
+import HistoriaIEEE from "./pages/historia/HistoriaIEEE";
 import Users from "./pages/usuarios/users";
 
 
@@ -38,6 +39,7 @@ function App() {
                     <Route path="grupos-de-afinidad" element={<GrupAfinidad/>}/>
                     <Route path="filosofia" element={<Filosofia/>}/>
                     <Route path='comite-y-voluntariados' element= {<ComiteVolun/>}/>
+                    <Route path='historia' element= {<HistoriaIEEE/>}/>
                     {/* <Route path='usuarios' element= {<Users/>}/> */}
                     <Route path="*" element={<NotFound/>}/>
                 </Routes>

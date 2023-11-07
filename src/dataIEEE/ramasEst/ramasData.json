@@ -1,49 +1,49 @@
 [
     {
         "id": 1,
-        "url": "https://google.com",
+        "url": "https://www.facebook.com/IEEEitcg/",
         "newsletter": "Instituto Tecnológico de Ciudad Guzman",
         "img": ""
     },
     {
         "id": 2,
-        "url": "https://google.com",
-        "newsletter": "RUniversidad Del Valle de Atemajac",
+        "url": "https://www.facebook.com/profile.php?id=100069511651442",
+        "newsletter": "Universidad Del Valle de Atemajac",
         "img": ""
     },
     {
         "id": 3,
-        "url": "https://google.com",
+        "url": "",
         "newsletter": "Centro de Investigación y de Estudios Avanzados del IPN",
         "img": ""
     },
     {
         "id": 4,
-        "url": "https://google.com",
+        "url": "https://www.facebook.com/profile.php?id=100063679893665",
         "newsletter": "Centro Universitario de Ciencias Exactas e Ingenierías",
         "img": ""
     },
     {
         "id": 5,
-        "url": "https://google.com",
+        "url": "",
         "newsletter": "Centro Universitario de Tonalá",
         "img": ""
     },
     {
         "id": 6,
-        "url": "https://google.com",
+        "url": "https://www.facebook.com/profile.php?id=100063662196242",
         "newsletter": "Universidad del Valle de México",
         "img": ""
     },
     {
         "id": 7,
-        "url": "https://google.com",
+        "url": "https://edu.ieee.org/mx-udgvalles/",
         "newsletter": "Centro Universitario de los Valles",
         "img": ""
     },
     {
         "id": 8,
-        "url": "https://google.com",
+        "url": "",
         "newsletter": "Instituto Tecnológico y de Estudios Superiores de Monterrey",
         "img": ""
     }

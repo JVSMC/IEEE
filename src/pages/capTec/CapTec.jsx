@@ -11,7 +11,6 @@ function CapTecnico() {
         <>
             <HeroHeader textH2={capitulosData[0]} textP={capitulosData[1]} stButton={capitulosData[2]} imageH={capitulosData[3]} />
             <section className="spaceBtwComp sbc-s">
-            <h2 className="titleSection">Explora los Capítulos Técnicos de la IEEE Sección Guadalajara</h2>
                 <div className="cardLinksContainer sizeM">
                 {
                     capitulosTec.map(({ id, icon, title, text, url, stButton }) =>

@@ -59,7 +59,8 @@ function Footer() {
                 </div>
             </footer>
             <p className='copyRight'>
-                &copy; 2023 <a href="https://github.com/JVSMC" target='_blank'>José Javier Martínez Cano</a>.
+                <a href="https://www.linkedin.com/in/javssmarc" target='_blank'>José Javier Martínez Cano </a>
+                &copy; { new Date().getFullYear() }.
             </p>
         </>
     );

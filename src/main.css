@@ -191,7 +191,7 @@ button:hover {
 }
 
 @media (max-width: 960px) {
-    .cardLinksContainer,.cardLinksContainer.sizeM{
+    .cardLinksContainer, .cardLinksContainer.sizeM{
         justify-items: center;
         margin-top: 3rem;
     }

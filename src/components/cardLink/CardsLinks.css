@@ -1,6 +1,6 @@
 .cardLink {
     position: relative;
-    width: 17.6875rem;
+    width: 100%; /* 17.6875rem */
     height: 17.6875rem;
     flex-shrink: 0;
     border-radius: var(--borderRound_2, 1.25rem);

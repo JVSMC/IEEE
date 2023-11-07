@@ -11,7 +11,7 @@
 
 .cardLinksContainer.sizeM .cardContainer {
     width: 100%;
-    height: 28.5rem;
+    /* height: 28.5rem; */
     margin: 0;
 }
 
@@ -23,12 +23,13 @@
 .cardTitle .cardIcon {
     font-size: var(--Subtitle-max);
     font-weight: 900;
+    margin-right: 1.94rem;
 }
 
 .cardTitle h3 {
     font-size: var(--Subtitle-min);
     font-weight: 600;
-    margin-left: 1.94rem;
+    
 }
 
 .cardContainer p {

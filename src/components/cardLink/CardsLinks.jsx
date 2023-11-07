@@ -1,4 +1,5 @@
 import '../cardLink/CardsLinks.css';
+
 function CardsLinks({ cardName, cardUrl, cardPosition, cardHide, cardImg }) {
     return (
         <div className="cardLink infoMember" style={{

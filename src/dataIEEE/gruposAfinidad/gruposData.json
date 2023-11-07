@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "title": "Mujer en la Ingeniería",
+        "text": "Texto descriptivo",
+        "icon": "",
+        "url": "https://github.com/JVSMC",
+        "stButton": true
+    },
+    {
+        "id": 2,
+        "title": "Jóvenes Profesionales",
+        "text": "Texto descriptivo",
+        "icon": "",
+        "url": "https://github.com/JVSMC",
+        "stButton": true
+    } 
+]

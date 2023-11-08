@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../heroHeader/HeroHeader.css';
 
 function HeroHeader({textH2, textP, stButton, imageH }) {
@@ -7,7 +8,9 @@ function HeroHeader({textH2, textP, stButton, imageH }) {
                 <div className='heroTextContainer'>
                     <h1>{textH2}</h1>
                     <p>{textP}</p>
-                    <button style={{ display: stButton ? 'block' : 'none' }}> <a href="#ContactUs">Comenzar a Aprender</a> </button>
+                    <Link to = '#ContactUs'>
+                        <button style={{ display: stButton ? 'block' : 'none' }}>Comenzar a Aprender</button>
+                    </Link>
                 </div>
                 <div className='heroDivisor'></div>
             </div>

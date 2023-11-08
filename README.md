@@ -1,4 +1,5 @@
 # Design Proposal for IEEE Guadalajara Section Website
+[Proposal preview link for new website](https://ieeegdl.netlify.app)
 
 The current *IEEE Guadalajara Section* website, built on WordPress, faces common issues with pre-designed templates, such as slow loading and lack of adaptability. We propose migrating to a React-based solution to enhance speed, customization, and adaptability. 🚀 This solution will optimize SEO and streamline management.
 
@@ -7,6 +8,7 @@ We invite you to explore our detailed proposal on [Figma](https://jjaviermc.netl
 
 
 # Propuesta de Diseño para la Página Web de IEEE Sección Guadalajara
+[Link de previsualización](https://ieeegdl.netlify.app)
 
 La actual página de IEEE Sección Guadalajara, basada en WordPress, enfrenta problemas comunes de plantillas prediseñadas, como carga lenta y falta de adaptabilidad. Proponemos migrar a una solución en React para mejorar la velocidad, personalización y adaptabilidad. 🚀 Esta solución optimizará el SEO y facilitará la gestión.
 

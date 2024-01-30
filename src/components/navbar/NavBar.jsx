@@ -31,17 +31,17 @@ function NavBar() {
                 <li>
                     <NavLink to='/' className='menuUrl'>Inicio</NavLink>
                 </li>
-                <li className='dropDown'>
+                {/* <li className='dropDown'>
                     <div className='dropBtn'>
                         Eventos
                         <FontAwesomeIcon className="icon-menu" icon={faChevronDown} />
                     </div>
                     <div className='dropdown-content'>
                         <NavLink to='/calendario' className='menuUrl'>Calendario</NavLink>
-                        {/* <a href='/#News' className='menuUrl'>Noticias</a> */}
+                        <a href='/#News' className='menuUrl'>Noticias</a>
                         <NavLink to='/premios' className='menuUrl'>Premios</NavLink>
                     </div>
-                </li>
+                </li> */}
                 <li className='dropDown'>
                     <div className='dropbtn'>
                         Estructura

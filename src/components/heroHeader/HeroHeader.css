@@ -5,7 +5,7 @@
 
 .heroContainer {
     display: flex;
-    height: 34.0625rem;
+    height: 36.0625rem;
     position: relative;
 }
 
@@ -79,11 +79,16 @@
     width: 58.0625rem;
     height: inherit;
     /* width: 50%;
-    height: inherit;
     background: linear-gradient(0deg, rgba(116, 187, 35, 0.20) 0%, rgba(116, 187, 35, 0.20) 100%), url(./matthew-osborn-wMRIcT86SWU-unsplash.webp);
     background-size: cover;
     background-position: center; */
 }
+/* 
+.heroImageContainer img{
+    display: none;
+    width: 60.0625rem;
+    height: 34.062rem;
+} */
 
 @media (max-width:1440px){
     .heroContainer {
@@ -126,7 +131,7 @@
         width: 40.262rem;
     }
 }
-@media (max-width: 960px){
+@media (max-width: 980px){
     .heroContainer{
         height: 22.7rem;
     }
@@ -150,8 +155,11 @@
         width: 8rem;
     }
     .heroImageContainer{
-        width: 24.02325rem;
+        width: 50%;
     }
+    /* .heroImageContainer img{
+        width: 37.02325rem;
+    } */
 }
 
 @media (max-width: 480px){

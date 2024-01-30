@@ -7,6 +7,7 @@ function NotFound() {
     const max = imgData.length;
     let index = Math.floor(Math.random() * max);
     // console.log(imgData[index]);
+    // const myContext = require.context('../../dataIEEE/notFound', true);
 
     return (
         <div className='spaceBtwComp' style={{
@@ -18,11 +19,11 @@ function NotFound() {
             textAlign: 'center'
         }}>
             <h2 className='titleSection'>Página no encontrada 404</h2>
-            <img style={{
+            {/* <img style={{
                 width: '90%', // Ancho al 100% del contenedor
                 height: '35vh', // Altura automática para mantener la proporción
                 margin: '2rem auto'
-            }} src={imgData[index]} alt="Esta página no ha sido encontrada, es probable que el equipo de desarrollo esté trabajando en ello." />
+            }} src={imgData[index]} alt="Esta página no ha sido encontrada, es probable que el equipo de desarrollo esté trabajando en ello." /> */}
             <p style={{
                 padding: '0 1rem'
             }}>Esta página no ha sido encontrada, es probable que el equipo de desarrollo esté trabajando en ello.</p>

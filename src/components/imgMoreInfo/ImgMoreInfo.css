@@ -92,7 +92,7 @@
         font-size: var(--Text-max);
     }
 }
-@media (max-width: 960px){
+@media (max-width: 980px){
     .imgMoreInf .counterContainer {
         grid-template-columns: repeat(auto-fill,minmax(10rem, 1fr));
     }

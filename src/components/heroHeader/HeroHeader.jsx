@@ -16,10 +16,10 @@ function HeroHeader({textH2, textP, stButton, imageH }) {
             </div>
             <div className='heroImageContainer' 
                 style={{
-                    background: `url(${imageH}) center/cover no-repeat, #00AEEF`
+                    background: `url(${imageH}) center/cover no-repeat, #00AEEF`,
+                    // backgroundImage: 'linear-gradient(0deg, rgba(116, 187, 35, 0.20) 0%, rgba(116, 187, 35, 0.20) 100%)',
                 }}
-            >
-                {/* linear-gradient(0deg, rgba(116, 187, 35, 0.20) 0%, rgba(116, 187, 35, 0.20) 100%), */}
+                >
                 {/* <img src={imageH} alt="Charlas IEEE Sección Guadalajara"/> */}
             </div>
         </section>

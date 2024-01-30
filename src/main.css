@@ -18,7 +18,7 @@
 
     /*Font size*/
     --Title-max: 4.4rem;
-    --Title-med: 4rem;
+    --Title-med: 3.5rem;
     --Title-min: 2.5rem;
 
     --Subtitle-max: 2.5rem;
@@ -107,7 +107,8 @@ button:hover{
     background-color: var(--background);
     display: flex;
     justify-content: space-around;
-    padding: 6.56rem 12rem 0 12rem;
+    /* padding: 6.56rem 12rem 0 12rem; */
+    padding: 6.56rem 5.5rem 0 5.5rem;
 }
 
 .KnowMore {
@@ -169,8 +170,9 @@ button:hover{
 
 @media (max-width: 1440px) {
     .cardsContainer {
-        /* justify-content: space-between; */
-        padding: 3.5rem 7.5rem 0 7.5rem;
+        justify-content: space-between;
+        padding: 3.5rem 4.5rem 0 4.5rem;
+        
     }
 
     .spaceBtwComp .titleSection {
@@ -199,7 +201,7 @@ button:hover{
     }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 980px) {
     .cardLinksContainer, .cardLinksContainer.sizeM{
         justify-items: center;
         margin-top: 3rem;
